@@ -8,10 +8,13 @@
 # Contact: PHPExamle@wdgp.nl
 # Thanks, and have fun with learning PHP
 
-$implode = array("this", "is", "one", "string",",","Remember","That","!"); //array to be transformed to "String"
+#Different Style Of PHP Code Comments [this is a comment...... really]
 
-$implodeString = implode(" ", $implode); // Each " " is a array value
+//this is also a comment
 
-echo($implodeString); //Print the "String"
+/* this is also a comment,
+   which supports multiline comments!!!!
+   
+   oh... it is also the last comment */
 
 ?>
