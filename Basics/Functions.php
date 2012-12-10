@@ -15,7 +15,7 @@ function first_function()
 
 echo first_function();
 
-echo "<hr>";
+echo "<hr>"; #Seporator
 
 function second_function($with,$some,$parameters)
 {
@@ -24,15 +24,15 @@ function second_function($with,$some,$parameters)
 
 echo second_function('cool','cooler','coolest');
 
-echo "<hr>";
+echo "<hr>"; #Seporator
 
 function third_function($bool=false)
 {
     return $bool;
 }
 
-echo (third_function(false)) ? 'True':'False';
-echo "<hr>";
-echo (third_function(true)) ? 'True':'False';
-echo "<hr>";
+echo (third_function(false)) ? 'True':'False'; //if third_function then True, else False.
+echo "<hr>"; #Seporator
+echo (third_function(true)) ? 'True':'False'; //if third_function then True, else False.
+echo "<hr>"; #Seporator
 
